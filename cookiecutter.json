@@ -1,6 +1,12 @@
 {
     "author":"MLOpsStudyGroup",
-    "project_name":"Australia_Weather_Prediction",
+    "project_name": "Australia Weather Prediction",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_version": "v0.1",
-    "model_type":"scikit-learn_0.23"
+    "model_type":"scikit-learn_0.23",
+    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
+    "use_github_actions_for_CICD": "y",
+    "use_pytest": "y",
+    "use_black": "y"
+
 }

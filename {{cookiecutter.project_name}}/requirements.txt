@@ -1,0 +1,13 @@
+scikit-learn>=0.23
+pandas
+seaborn
+matplotlib
+joblib
+numpy
+ibm_watson_machine_learning
+pyyaml
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest
+pytest-dependency
+{%- endif %}
+pre-commit
