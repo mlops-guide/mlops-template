@@ -1,0 +1,4 @@
+author: {{cookiecutter.author}}
+model_type: {{cookiecutter.model_type}}
+project_name: {{cookiecutter.project_name}}
+project_version: {{cookiecutter.project_version}}

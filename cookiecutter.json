@@ -1,0 +1,6 @@
+{
+    "author":"MLOpsStudyGroup",
+    "project_name":"Australia_Weather_Prediction",
+    "project_version": "v0.1",
+    "model_type":"scikit-learn_0.23"
+}
