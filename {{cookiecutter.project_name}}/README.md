@@ -21,8 +21,8 @@ Setup your credentials on ```~/.aws/credentials``` and ```~/.aws/config```. DVC 
 
 ```credentials
 [default]
-aws_access_key_id = {{Key ID}}
-aws_secret_access_key = {{Access Key}}
+aws_access_key_id = {Key ID}
+aws_secret_access_key = {Access Key}
 ```
 
 
