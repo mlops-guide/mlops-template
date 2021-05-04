@@ -7,6 +7,9 @@
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
     "use_github_actions_for_CICD": "y",
     "use_pytest": "y",
-    "use_black": "y"
+    "use_black": "y",
+    "_copy_without_render": [
+        "*.github/workflows"
+    ]
 
 }

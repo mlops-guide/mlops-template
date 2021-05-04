@@ -19,20 +19,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        {% if cookiecutter.use_pytest == 'y' -%}
-        pip install pytest
-        {% endif %}
-        {% if cookiecutter.use_black == 'y' -%}
         pip install pytest black
-        {% endif %}
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    {% if cookiecutter.use_pytest == 'y' -%}
     - name: Test with pytest
       run: |
         pytest
-    {% endif %}
-    {% if cookiecutter.use_black == 'y' -%}
     - name: Python Black
       run: |
         black . --check
-    {% endif %}
